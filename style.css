@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-size: 100%;
+  background: #0f0f3d;
+  color: white;
+}
+
+/* ===== NAVBAR ===== */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #12124a;
+}
+
+.navbar nav a{
+  color: white;
+  margin-left: 25px;
+  text-decoration: none;
+}
+
+/* ===== HERO ===== */
+.hero{
+  display: flex;
+  gap: 70vh;
+  padding: 80px 60px;
+  height: auto;
+}
+
+.hero-text h1 span{
+  color: #b45cff;
+}
+
+.hero-text h3{
+  color: orange;
+  margin-top: 10px;
+}
+
+.buttons{
+    display:flex;
+    gap: 30px;
+  margin-top: 30px;
+}
+
+.btn{
+  display: inline-block;
+  padding: 0px 20px;
+  margin-right: 0px;
+  background: #b45cff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero-img img{
+  width: 200px;
+}
+
+/* ===== EXPERIENCE ===== */
+.experience{
+  padding: 80px 60px;
+}
+
+.experience h4{
+  color: #ccc;
+}
+
+.exp-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.exp-box{
+  background: #17175c;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* ===== FOOTER ===== */
+.footer{
+   background-color: #6c6cca;
+  padding: 50px 60px;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.copy{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.img{
+display: flex;
+justify-content: center;
+border-radius: 5px;
+}

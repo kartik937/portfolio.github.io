@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kartik - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR (UNCHANGED) ===== -->
+    <header class="navbar">
+        <h2>My Portfolio</h2>
+        <nav>
+            <a href="#">Home</a>
+            <a href="https://drive.google.com/file/d/1aDK4Uczl8xnRB_33-JbaD_9zvRBu0xkf/view?usp=drivesdk">About Me</a>
+            <a href="https://fitnessarun.netlify.app">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hi, My name is <span>Kartik</span>.</h1>
+            <h2>I am passionate</h2>
+            <h2>Web Developer</h2>
+            <span id="element" style="color: rgb(226, 123, 43); font-size: 24px;"></span>
+
+            <div class="buttons">
+                <a href="https://drive.google.com/file/d/1aDK4Uczl8xnRB_33-JbaD_9zvRBu0xkf/view?usp=drivesdk"
+                    class="btn">Download CV</a>
+                <a href="https://github.com/kartik937" class="btn">Visit Github</a>
+            </div>
+        </div>
+
+        <div class="hero-img">
+            <img src="portimg.png" alt="Developer">
+        </div>
+    </section>
+    <hr>
+
+    <!-- ===== EXPERIENCE SECTION ===== -->
+    <section class="experience" id="about">
+        <h4>I have done so far</h4>
+        <h2>Working Experience</h2>
+        <hr>
+        <div class="exp-container">
+            <div class="img"><img src="developer.png" style="width: 40px; height: 40px;"></div>
+            <div class="exp-box">
+                <h3>About Me (Developer)</h3>
+                <p>
+                    Hello! I'm Kartik, a dedicated web developer with a passion for creating
+                    dynamic and user-friendly websites. With expertise in PHP, MySQL, and
+                    Laravel framework, I specialize in backend development while also having
+                    a keen eye for design.
+                </p>
+            </div>
+            <div class="img"><img src="frontend.png" style="width: 40px; height: 40px;"></div>
+            <div class="exp-box">
+                <h3>Frontend Development (HTML-CSS-JS)</h3>
+                <p>
+                    I have completed a three-month internship focused on HTML, CSS and JavaScript.
+                    I gained strong hands-on experience in creating responsive web pages and
+                    well-structured layouts.
+                </p>
+            </div>
+
+            <div class="img"><img src="php.png" style="width: 40px; height: 40px;"></div>
+            <div class="exp-box">
+                <h3>Backend Development (PHP-MySQL)</h3>
+                <p>
+                    I have worked on basics understanding in PHP and MySQL, developing dynamic
+                    web applications, CRUD operations, file handling, session and cookies.
+                </p>
+            </div>
+
+            <div class="img"><img src="images (3).png" style="width: 40px; height: 40px;"></div>
+            <div class="exp-box">
+                <h3>Backend Development (Laravel)</h3>
+                <p>
+                    I have basic understanding of Laravel framework following MVC architecture,
+                    routing, controllers, models and Blade templating.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== FOOTER (UNCHANGED) ===== -->
+    <footer class="footer" id="contact">
+        <div class="footer-content">
+            <div>
+                <h2>Kartik Tyagi</h2>
+                <p>Web Developer | Backend Developer</p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">Project</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div>
+                <h3>Connect With Me</h3>
+                <a href="https://github.com/kartik937">GitHub</a>
+                <p>Download CV</p>
+                <p>kartiktyagi1106@gmail.com</p>
+            </div>
+        </div>
+
+        <hr />
+        <p class="copy">© 2026 Kartik Tyagi | All Rights Reserved</p>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Web Designer.', 'mainly Backend Developer.', 'Content Creator.', 'command in php and mysql.', 'basics of Laravel framework.'],
+            loop: true,
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
