@@ -28,9 +28,10 @@ body{
 
 /* ===== HERO ===== */
 .hero{
-  display: flex;
-  gap: 70vh;
-  padding: 80px 60px;
+ position: relative;
+  width: 150vh;
+  right: -280px;
+  padding: 60px 40px;
   height: auto;
 }
 
