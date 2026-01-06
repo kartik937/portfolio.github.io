@@ -60,9 +60,8 @@ body{
 }
 
 .hero-img img{
- position: relative;
-    top: -30px;
-    right: 200px;
+
+  padding: 0px 0px;
   width: 300px;
 }
 
