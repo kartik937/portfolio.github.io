@@ -132,7 +132,6 @@ border-radius: 5px;
 .form-container{
   max-width: 600px;
   margin-top: 20px;
-  margin-left:-320px;
   background: #17175c;
   padding: 20px;
   border-radius: 15px;
@@ -167,7 +166,6 @@ border-radius: 5px;
    .form-container{
   margin-top: 20px;
    font-size: 1.0rem;
-  border-radius: 15px;
 }
   }
  
