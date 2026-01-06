@@ -60,7 +60,10 @@ body{
 }
 
 .hero-img img{
-  width: 200px;
+  position: relative;
+    top: -230px;
+    right: -400px;
+  width: 300px;
 }
 
 /* ===== EXPERIENCE ===== */
