@@ -29,6 +29,7 @@ body{
 /* ===== HERO ===== */
 .hero{
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
  width: 100%;
   min-height: 100vh;
   background: linear-gradient(135deg, #05053d, #0b0b5c);
@@ -45,6 +46,8 @@ body{
   justify-content: space-around;
   gap: 40px;
 =======
+=======
+>>>>>>> Stashed changes
 position: relative;
   width: 150vh;
   right: -280px;
@@ -86,6 +89,9 @@ position: relative;
   padding: 0px 0px;
   width: 500px;
   align-content: center;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
 
