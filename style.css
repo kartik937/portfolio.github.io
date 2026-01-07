@@ -159,10 +159,7 @@ border-radius: 5px;
   .hero-image img{
     width: 80%;
   }
-   .form-container{
-  margin-top: 20px;
-   font-size: 1.0rem;
-}
+
   }
  
 
@@ -192,4 +189,8 @@ border-radius: 5px;
   .hero-image img{
     width: 80%;
   }
+     .form-container{
+  margin-top: 20px;
+   font-size: 1.0rem;
+}
 }
