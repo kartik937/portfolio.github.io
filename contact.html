@@ -21,5 +21,17 @@
         <input type="submit" value="Send">
         <input type="reset" value="Reset">
         </div>
+     <script>
+        function showPopup() {
+            alert("✅ Your message has been submitted successfully!");
+
+            // reload page after 1 second
+            setTimeout(() => {
+                window.location.reload();
+            }, 1000);
+
+            return true; // allow mailto to work
+        }
+    </script>
 </body>
 </html>
