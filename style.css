@@ -28,6 +28,7 @@ body{
 
 /* ===== HERO ===== */
 .hero{
+<<<<<<< Updated upstream
  width: 100%;
   min-height: 100vh;
   background: linear-gradient(135deg, #05053d, #0b0b5c);
@@ -43,6 +44,13 @@ body{
   align-items: center;
   justify-content: space-around;
   gap: 40px;
+=======
+position: relative;
+  width: 150vh;
+  right: -280px;
+  padding: 60px 40px;
+  height: auto;
+>>>>>>> Stashed changes
 }
 
 .hero-text h1 span{
@@ -51,7 +59,7 @@ body{
 
 .hero-text h3{
   color: orange;
-  margin-top: 10px;
+  margin-top: 10px 20px;
 }
 
 .buttons{
@@ -71,7 +79,14 @@ body{
 }
 
 .hero-img img{
+<<<<<<< Updated upstream
   width: 300px;
+=======
+
+  padding: 0px 0px;
+  width: 500px;
+  align-content: center;
+>>>>>>> Stashed changes
 }
 
 /* ===== EXPERIENCE ===== */
@@ -159,10 +174,7 @@ border-radius: 5px;
   .hero-image img{
     width: 80%;
   }
-   .form-container{
-  margin-top: 20px;
-   font-size: 1.0rem;
-}
+
   }
  
 
@@ -192,4 +204,8 @@ border-radius: 5px;
   .hero-image img{
     width: 80%;
   }
+     .form-container{
+  margin-top: 20px;
+   font-size: 1.0rem;
+}
 }
