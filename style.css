@@ -136,6 +136,22 @@ border-radius: 5px;
   padding: 20px;
   margin: 50px auto;
 }
+.about-container{
+  background-attachment: fixed;
+  background-color: #ccccd6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+  padding: 80px 60px;
+  color: #6c6cca;
+
+}
+.myimg img{
+  width: 200px;
+  height: 300px;
+  border-radius: 100px;
+}
 
 
 
@@ -166,5 +182,9 @@ border-radius: 5px;
    font-size: 1.0rem;
   border-radius: 15px;
 }
+.aboutme-container{
+  flex-direction: column;
+  text-align: center;
 
+}
 }
