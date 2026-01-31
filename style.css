@@ -203,4 +203,20 @@ border-radius: 5px;
 .myimg img{
     margin-top: 30px;
 }
-}
+@media (max-width: 480px){
+  .navbar{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar nav a{
+    margin: 10px 0;
+  }
+
+  .hero-text h1{
+    font-size: 1.8rem;
+  }
+
+  .hero-text h2{
+    font-size: 1.2rem;
+  }
