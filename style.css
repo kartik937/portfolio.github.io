@@ -186,7 +186,6 @@ border-radius: 5px;
     justify-content: center;
     flex-wrap: wrap;
   }
-
   .hero-image{
     margin-top: 30px;
   }
@@ -198,6 +197,7 @@ border-radius: 5px;
 .about-container{
   flex-direction: column;
   text-align: center;
+  height: fit-content;
 }
   }
 .myimg img{
