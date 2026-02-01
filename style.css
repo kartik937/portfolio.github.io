@@ -201,9 +201,8 @@ border-radius: 5px;
 }
   }
 .myimg img{
-    margin-top: 20px;
-    align-items: center;
-}
+    margin-top: 30px;
+   }
 @media (max-width: 480px){
    .navbar{
     flex-direction: column;
