@@ -206,7 +206,7 @@ border-radius: 5px;
 @media (max-width: 480px){
   .navbar{
     flex-direction: column;
-    text-align: center;
+    
   }
 
   .navbar nav a{
