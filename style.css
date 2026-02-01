@@ -211,7 +211,8 @@ border-radius: 5px;
   } 
 
    .navbar nav a{
-    margin: 10px 0;
+    margin: 20px 0;
+    text-align: center;
   } 
 
   /* .hero-text h1{
