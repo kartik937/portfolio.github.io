@@ -202,11 +202,12 @@ border-radius: 5px;
   }
 .myimg img{
     margin-top: 30px;
+    align-items: center;
 }
 @media (max-width: 480px){
   .navbar{
     flex-direction: column;
-    
+    text-align: center;
   }
 
   .navbar nav a{
