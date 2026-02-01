@@ -205,20 +205,20 @@ border-radius: 5px;
     align-items: center;
 }
 @media (max-width: 480px){
-  /* .navbar{
+   .navbar{
     flex-direction: column;
     text-align: center;
-  } */
+  } 
 
-  /* .navbar nav a{
+   .navbar nav a{
     margin: 10px 0;
-  } */
+  } 
 
-  .hero-text h1{
+  /* .hero-text h1{
     font-size: 1.8rem;
   }
 
   .hero-text h2{
     font-size: 1.2rem;
-  }
+  } */
 }
