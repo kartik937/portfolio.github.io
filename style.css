@@ -205,10 +205,10 @@ border-radius: 5px;
     align-items: center;
 }
 @media (max-width: 480px){
-  .navbar{
+  /* .navbar{
     flex-direction: column;
     text-align: center;
-  }
+  } */
 
   .navbar nav a{
     margin: 10px 0;
