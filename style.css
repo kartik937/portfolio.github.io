@@ -196,7 +196,7 @@ border-radius: 5px;
 .about-container{
   flex-direction: column;
   text-align: center;
-  height: auto;
+  height:fit-content;
 }
   }
 .myimg img{
