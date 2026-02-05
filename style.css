@@ -185,6 +185,7 @@ border-radius: 5px;
   margin-top: 20px;
     flex-direction: column;
     text-align: center;
+    text-box: center;
   border-radius: 15px;
 }
 .about-container{
