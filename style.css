@@ -157,7 +157,22 @@ border-radius: 5px;
   height: 300px;
   border-radius: 100px;
 }
-
+.call{
+  background-color: #7373bb;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  margin-left: 500px;
+}
+.message{
+  justify-content: center;
+  flex-direction: column;
+  background-color: #7373bb;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  margin-left: 480px;
+}
 
 
 @media (max-width: 768px){
@@ -197,6 +212,22 @@ border-radius: 5px;
 .myimg img{
     align-items: center;
    }
+
+   .call{
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    height: fit-content;
+   }
+
+ .message{
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    height: fit-content;
+    margin-top: 40px;
+   }
+
 @media (max-width: 480px){
    .navbar{
     flex-direction: column;
